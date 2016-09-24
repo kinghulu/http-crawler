@@ -1,2 +1,2 @@
-# http-spider
-simple network small http spider
+# http-crawler
+simple network small http crawler
