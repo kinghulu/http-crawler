@@ -24,7 +24,7 @@ function filterChapters(html){
 
        videos.each(function(item){
        	  var video = $(this);
-       	  var videoTitle = video.find('.J-media-item').text().trim();
+       	  var videoTitle = video.find('.J-media-item').text().replace(/\s+/g,' ');
        	  // console.log(videoTitle);
        	  var id = video.find('.J-media-item').attr('href').split('video/')[1];	
 
